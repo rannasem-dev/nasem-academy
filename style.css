@@ -1,50 +1,10 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  background: #f4f6fb;
-}
-
-header {
-  background: #1f4fd8;
-  color: white;
-  padding: 15px;
-  display: flex;
-  justify-content: space-between;
-}
-
-nav a {
-  color: white;
-  margin-left: 15px;
-  text-decoration: none;
-}
-
-.hero {
-  text-align: center;
-  padding: 60px 20px;
-  background: white;
-}
-
-.btn {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 12px 25px;
-  background: #ff9800;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-.levels {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  padding: 40px;
-}
-
-.card {
-  background: white;
-  padding: 20px;
-  width: 250px;
-  border-radius: 10px;
-  text-align: center;
-}
+body { font-family: Arial, sans-serif; margin: 0; background: #f4f6fb; }
+header { background: #1f4fd8; color: white; padding: 15px; display: flex; justify-content: space-between; }
+nav a { color: white; margin-left: 15px; text-decoration: none; }
+.hero { text-align: center; padding: 60px 20px; background: white; }
+.btn { display: inline-block; margin-top: 20px; padding: 12px 25px; background: #ff9800; color: white; text-decoration: none; border-radius: 5px; }
+.levels { display: flex; justify-content: center; gap: 20px; padding: 40px; flex-wrap: wrap; }
+.card { background: white; padding: 20px; width: 250px; border-radius: 10px; text-align: center; }
+footer { text-align: center; padding: 20px; background: #1f4fd8; color: white; }
+.lesson { max-width: 700px; margin: 40px auto; background: white; padding: 20px; border-radius: 10px; }
+.lesson h2 { color: #1f4fd8; }
